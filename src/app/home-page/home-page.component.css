@@ -31,10 +31,18 @@ ul {
   }
 
 h1{
-    color:#DBAD6A;
+    color: white;
     padding-left: 20px;
     font-size: 40px;
     font-weight: bolder;
+}
+
+h2{
+    color: #DBAD6A;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+
 }
 
 
@@ -110,6 +118,7 @@ h1{
 
 .center-image{
     text-align:center;
+    padding-top: 200px;
     
 }
 
@@ -121,4 +130,16 @@ h1{
 .allign{
     display: flex;
     justify-content: space-between;
+}
+
+.caption{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+}
+
+.paragraph{
+    padding-left: 20px;
+    text-align: center;
+    width: 350px;
 }
