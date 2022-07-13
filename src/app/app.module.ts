@@ -9,10 +9,12 @@ import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HomePageComponent } from './home-page/home-page.component';
+import { TutorPageComponent } from './tutor-page/tutor-page.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    TutorPageComponent
   ],
   imports: [
     BrowserModule,
