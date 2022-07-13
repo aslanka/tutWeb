@@ -7,14 +7,6 @@ import { FormControl, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tutWeb';
-  email = new FormControl('', [Validators.required, Validators.email]);
-
-  getErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'You must enter a value';
-    }
-
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  }
+  quote : string =  "“Education is a progressive discovery of our own ignorance.”";
+  author : string = "- Will Durant"
 }
